@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GlovoAndroid</string>
+    <string name="enviar">Enviar</string>
+    <string name="escribir">Escribir</string>
+    <string name="vistalst">vistalst</string>
+    <string name="vistapnt" />
+</resources>

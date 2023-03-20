@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="nombreID">
+    <item>Nombre</item>
+    <item>Pacos</item>
+    <item>Kebaberia</item>
+    <item>Variopinto</item>
+    <item>Tagliatela</item>
+    <item>Takeshi</item>
+    <item>Manuel y los hermanos</item>
+    <item>Mushashi</item>
+    <item>Ankara kebab</item>
+    <item>Indidu</item>
+    <item>Goa</item>
+
+</string-array>
+    
+</resources>

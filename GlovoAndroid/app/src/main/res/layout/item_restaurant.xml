@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:background="@drawable/pokemon_gradient"
+    android:visibility="visible">
+
+
+    <!--    <TextView
+        android:id="@+id/IMAGEN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textAllCaps="true" />-->
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="1000dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="178dp"
+        android:layout_marginEnd="1dp"
+        android:background="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/IMAGEN"
+        android:layout_width="173dp"
+        android:layout_height="176dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/NOMBRE"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="24dp"
+        android:layout_toEndOf="@+id/IMAGEN"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/buton"
+        android:layout_width="108dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="@color/green"
+        android:onClick="Datos"
+        android:text="Ver+" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NOMBRE"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toEndOf="@+id/IMAGEN"
+        android:fontFamily="cursive"
+        android:text="Ventas"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/PUNTUACION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NOMBRE"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="52dp"
+        android:layout_toEndOf="@+id/textView9"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="2"
+        android:textAllCaps="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/VENTAS"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="86dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:text="10"
+        android:textAllCaps="true"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="114dp"
+        android:fontFamily="cursive"
+        android:text="Puntos"
+        android:textSize="25dp" />
+</RelativeLayout>

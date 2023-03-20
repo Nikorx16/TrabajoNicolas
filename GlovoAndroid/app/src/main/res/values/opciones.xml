@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="filtros">
+    <item>Tipo</item>
+    <item>Abrasador</item>
+    <item>Kebab</item>
+    <item>Japones</item>
+    <item>Indio</item>
+    <item>Pijo</item>
+
+</string-array>
+    
+</resources>
